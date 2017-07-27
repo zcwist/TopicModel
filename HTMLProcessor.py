@@ -22,7 +22,8 @@ class ModuleTxt(object):
 
 	def responses(self):
 		responses = []
-		entries = self.soup.find(id="discussion_subentries").find('ul')
+		entries = self.soup.find(id="discussion_subentries").find('ul',class_="discussion-entries")
+		# print entries
 
 		for entry in entries.find_all('li',class_="entry",recursive=False):
 			text = entry.find('div', class_="message user_content enhanced")
@@ -49,11 +50,14 @@ class ModuleTxt(object):
 
 if __name__ == '__main__':
 	topic1 = "Topic_ Module 1 Discussion_ Innovation Processes - Social Sector Solutions.htm"
+	# topic2 = "PFPS Module 1/Topic_ Module 1 Discussion_ Innovation Processes - IBD Team Members page 2.html"
+	# topic2 = "Topic_ Module 2 Discussion_ Redesigning Businesses - Social Sector Solutions.html"
 	module1 = ModuleTxt(topic1)
-	for i,response in enumerate(module1.responses()):
-		print "response"+str(i)
-		print response["responseText"]
-		print "========================"
+	print module1.question()
+	# for i,response in enumerate(module1.responses()):
+	# 	print "response"+str(i)
+	# 	print response["responseText"]
+	# 	print "========================"
 
 
 

@@ -14,6 +14,11 @@ import Config
 import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
+sub_questions = ['What are the similarities and differences among “design thinking”, "positive deviance" and “lean start-up”? For example, how are the personal skills or mindsets required by each similar or different? ',
+'In what ways have the organizations you have worked in supported the development of these skills or mindsets? In what ways might they better support these approaches?',
+'Which approaches are likely to be most valuable in the Applied Innovation course you are taking? ',
+'What questions do you have about the approaches that you would like to discuss with your classmates?']
+
 
 class MyCorpus(TextCorpus):
 	"""docstring for MyCorpus"""
@@ -34,7 +39,7 @@ class NLTKCorpus(object):
 		super(NLTKCorpus, self).__init__()
 		self.input = input
 		self.docs = []
-		self.read_data()
+		self.read_data(2)
 		self.preprocessing()
 
 	def read_data(self):
@@ -43,6 +48,14 @@ class NLTKCorpus(object):
 				with file_or_filename(self.input + f) as lines:
 					for lineno, line in enumerate(lines):
 						self.docs.append(unicode(line,"utf-8"))
+
+	def read_data(self,readingNum):
+		dirlist = [x for x in listdir(self.input) if x.endswith(".txt")]
+		file = dirlist[readingNum]
+		print file
+		with file_or_filename(self.input + file) as lines:
+			for lineno, line in enumerate(lines):
+				self.docs.append(unicode(line,"utf-8"))
 
 	def preprocessing(self):
 		# Tokenize the documents
@@ -127,6 +140,8 @@ class NLTKTfidfCorpus(NLTKCorpus):
 
 		self.dictionary = Dictionary(docs)
 
+		# self.dictionary.filter_extremes(no_below=0,no_above=1,keep_n=500)
+
 		self.corpus = [self.dictionary.doc2bow(doc) for doc in docs]
 
 		self.id2word = self.dictionary.id2token
@@ -193,6 +208,10 @@ class ModuleAnalysis(object):
 		questionTxt = self.moduleText.questionTxt
 		return self.ldaModel[self.vec(questionTxt)]
 
+	def subquestionAnalysis(self,number):
+		subquestion = sub_questions[number]
+		return self.ldaModel[self.vec(subquestion)]
+
 	def responseAnalysis(self, number):
 		response = self.moduleText.responseList[number]
 		responseTxt = response["responseText"]
@@ -231,7 +250,6 @@ class ModuleAnalysis(object):
 		# 	print "topic" + str(topic[0]) + ":" + str(terms)
 		print self.topicTerm
 
-
 class ModuleAnalysisNLTK(ModuleAnalysis):
 	"""docstring for ModuleAnalysisNLTK"""
 	def __init__(self, topicNumber, moduleFile, updateModel = False):
@@ -261,17 +279,18 @@ class ModuleAnalysisNLTK(ModuleAnalysis):
 if __name__ == '__main__':
 	module1 = "Topic_ Module 1 Discussion_ Innovation Processes - Social Sector Solutions.htm"
 	
-	# moduleAnalysis = ModuleAnalysis(1,module1, updateModel=False)
+	moduleAnalysis = ModuleAnalysisNLTK(1,module1, updateModel=False)
 	# moduleAnalysis.plotQuestion()
 	# moduleAnalysis.allResponseAndComment()
 	# print moduleAnalysis.commentAnalysis(14,1)
 
-	# moduleAnalysis.printTopicTerms(5)
+	moduleAnalysis.printTopicTerms()
 
-	moduleAnalysis = ModuleAnalysisNLTK(1,module1, updateModel=True)
+	# moduleAnalysis = ModuleAnalysisNLTK(1,module1, updateModel=False)
+	# print moduleAnalysis.subquestionAnalysis(0)
 	# moduleAnalysis.plotQuestion()
 	# moduleAnalysis.allResponseAndComment()
-	moduleAnalysis.printTopicTerms()
+	# moduleAnalysis.printTopicTerms()
 	# print moduleAnalysis.readingAnalysis(1)
 	# moduleAnalysis.plotReading(1)
 	# moduleAnalysis.plotReading(2)
