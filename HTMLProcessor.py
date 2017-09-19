@@ -162,6 +162,7 @@ if __name__ == '__main__':
 
 
 	file.close()
+	print "It's done. Check " + outputfile
 
 
 
