@@ -1,7 +1,0 @@
-Design thinking requires empathy with users, discipline for prototyping, tolerance for failure, exhibit thoughtful restraint.
-Lean startups go through steps including develop a vision, translate vision into the hypothesis, specify MVP (Minimum Viable Products) tests, prioritize tests, learn From MVP tests, persevere, pivot or perish, scaling and ongoing optimization. 
-To better support these approaches: 
-1) allow people to fail
-2) emphasize on learnings and exploration
-3) encourage discussion  
- 

@@ -10,7 +10,7 @@ class ModuleTxt(object):
 	def __init__(self, topicFile):
 		super(ModuleTxt, self).__init__()
 		self.topicFile = topicFile
-		self.soup = BS(open("dataset/" + topicFile),"html.parser")
+		self.soup = BS(open(topicFile),"html.parser")
 		self.questionTxt = self.question()
 		self.responseList = self.responses()
 
@@ -103,48 +103,66 @@ class ModuleTxtByList(ModuleTxt):
 
 
 if __name__ == '__main__':
-	def topic1():
-		topic1 = "Topic_ Module 1 Discussion_ Innovation Processes - Social Sector Solutions.htm"
-		# topic2 = "PFPS Module 1/Topic_ Module 1 Discussion_ Innovation Processes - IBD Team Members page 2.html"
-		# topic2 = "Topic_ Module 2 Discussion_ Redesigning Businesses - Social Sector Solutions.html"
+	# def topic1():
+	# 	topic1 = "Topic_ Module 1 Discussion_ Innovation Processes - Social Sector Solutions.htm"
+	# 	# topic2 = "PFPS Module 1/Topic_ Module 1 Discussion_ Innovation Processes - IBD Team Members page 2.html"
+	# 	# topic2 = "Topic_ Module 2 Discussion_ Redesigning Businesses - Social Sector Solutions.html"
 
-		module1 = ModuleTxt(topic1)
-		print module1.question()
-		# for i,response in enumerate(module1.responses()):
-		# 	print "response"+str(i)
-		# 	print response["responseText"]
-		# 	print "========================"
+	# 	module1 = ModuleTxt(topic1)
+	# 	print module1.question()
+	# 	# for i,response in enumerate(module1.responses()):
+	# 	# 	print "response"+str(i)
+	# 	# 	print response["responseText"]
+	# 	# 	print "========================"
 
 
 
 
 		
-		# print module1.responseList[0]["responseText"]["comments"][1]["comment"]
-		# print module1.responseList[14]["comments"][1]["comment"]
-		# module1.printResponse(1)
-		# module1.printComments(16,1)
-	def module2():
-		module2topic = "module 2/Collaborative Innovaiotn Topic_ Week 9 Discussion_ Framing and Reframing.html"
-		module2 = ModuleTxtByList(module2topic)
-		# module2 = ModuleTxt(module2topic)
+	# 	# print module1.responseList[0]["responseText"]["comments"][1]["comment"]
+	# 	# print module1.responseList[14]["comments"][1]["comment"]
+	# 	# module1.printResponse(1)
+	# 	# module1.printComments(16,1)
+	# def module2():
+	# 	module2topic = "module 2/Collaborative Innovaiotn Topic_ Week 9 Discussion_ Framing and Reframing.html"
+	# 	module2 = ModuleTxtByList(module2topic)
+	# 	# module2 = ModuleTxt(module2topic)
 
-		module2_2topic = "module 2/Collaborative Innovation part 2 Topic_ Week 9 Discussion_ Framing and Reframing.html"
-		module2_2 = ModuleTxtByList(module2_2topic)
+	# 	module2_2topic = "module 2/Collaborative Innovation part 2 Topic_ Week 9 Discussion_ Framing and Reframing.html"
+	# 	module2_2 = ModuleTxtByList(module2_2topic)
 
-		from collections import Counter
-		studentlist = module2.student20 + module2_2.student20
-		print Counter(studentlist)
-		print len(studentlist)
-		print len(module2.responses())
-		print len(module2_2.responses())
-	def fall2017():
-		module2topic = "Topic_ Week 1_ Reading Reflection.html"
-		week1 = ModuleTxt(module2topic)
-		for i,response in enumerate(week1.responses()):
-			print "response"+str(i+1)
-			print response["student"]
-			print response["responseText"]
-			print "========================"
-	fall2017()
+	# 	from collections import Counter
+	# 	studentlist = module2.student20 + module2_2.student20
+	# 	print Counter(studentlist)
+	# 	print len(studentlist)
+	# 	print len(module2.responses())
+	# 	print len(module2_2.responses())
+	# def fall2017():
+	# 	module2topic = "Topic_ Week 1_ Reading Reflection.html"
+	# 	week1 = ModuleTxt(module2topic)
+	# 	for i,response in enumerate(week1.responses()):
+	# 		print "response"+str(i+1)
+	# 		print response["student"]
+	# 		print response["responseText"]
+	# 		print "========================"
+	
+	import sys
+	import codecs
+	outputfile = "output.txt"
+	if len(sys.argv) > 2:
+		outputfile = sys.argv[2]
+	html = sys.argv[1]
+	text = ModuleTxt(html)
+	file = open(outputfile,"w")
+	for i,response in enumerate(text.responses()):
+			file.write("response"+str(i+1) + "\n")
+			file.write(response["student"] + "\n")
+			file.write(response["responseText"] + "\n")
+			file.write("========================" + "\n")
+
+
+	file.close()
+
+
 
 
