@@ -1,0 +1,164 @@
+  Problem Finding, Problem Solving
+Note on Observe
+“You don’t have to stay awake at night to get ahead. All you have to do is stay awake in the daytime” (Mayfield, 2007)
+“The beginning of science is the ability to be amazed by apparently simple things” (Noam Chomsky)
+“It is more convenient to assume that reality is similar to our preconceived ideas than to freshly observe what we have before our eyes” (Robert Fritz)
+To observe means to hold something in front of you, and to watch is to stay awake. “When you can slow down sufficiently to experience the operation of your own sensing, perceiving and thinking, then you can begin to use each faculty with more skill” (Mayfield, 2007). This quote sets up the first chapter of a book on critical thinking, as it establishes the importance of awareness of what it going on around you, and how to tune that awareness.
+In general, inductive reasoning requires that you:
+ Sense: take in data without preconceptions
+ Perceive: focus on particular sensations and categorize them according to your memory system
+ Think: draw conclusions about the patterns you see and the meaning they provide
+In this Note on Observe, we focus on sensing and perceiving, and in particular around doing so with customers and other stakeholders in a business process. Observe entails collecting information firsthand through:
+ asking open-ended questions
+ seeing (watching) people and processes
+ engaging others in co-creation activities to uncover new patterns of behavior
+Observation
+The usefulness of observation techniques in business today is garnering considerable attention through a popular focus on design. Descriptions of the design process ground it in deep understanding of the context surrounding the problem or opportunity being addressed (Beckman & Barry, 2007). Typically, understanding context focuses on customers and end users, but it may also involve studying other stakeholders in the organization’s value chain. A team designing a product might consider all members of the supply chain. A team designing a new building might consider all those involved in constructing the building as well as all those who will occupy, maintain, or simply be walking by the building. A team designing a new business model might consider customers, users, suppliers, partners and channel participants as well as the interests of those running the business itself.
+Six Sigma focuses on understanding customer requirements as well as on the process being used to meet those requirements. The approaches used, however, tend to focus more on quantitative data collection and analysis, while the design process focuses more on gathering qualitative data and synthesizing it to find patterns and obtain insights.
+Observation relies heavily on ethnographic research methods; it is primarily through applications of ethnographic techniques in human computer interface design that they have become popular tools in
+1
+    
+  Problem Finding, Problem Solving
+business today. Ethnography is the rigorous study of the routine daily lives of people in a culture with the intent of understanding those people from their point of view as well as our own. Its intent in business applications is to understand people’s needs or desired outcomes, and find explanations for why people do what they do. In the end, it seeks to find what is missing in people’s lives, which in turn provides insight as to what might be created to fill the gap. Finding new ways to fill the gaps in people’s lives is at the heart of innovation – whether of products, services, organizations or entire businesses.
+Performing ethnographic research is a lot like doing detective work. It looks both broad and deep, infers models to explain the observations, and seeks to identify gaps and inconsistencies. It aims to get at the hidden needs that people have a hard time articulating, and as such does not entail asking people what they need, but rather observing them to identify the problems they are attempting to solve in their everyday work or lives. Understanding those hidden or implicit needs leads to unique insights and ultimately can lead to big new ideas.
+Ethnographic research starts with basic questions – about what people are doing – and then moves on to understanding why they are doing those things. It moves from actions to feelings, attempting to understand the ways in which people make sense of what they do. That sensemaking process is sometimes referred to as “making meaning” (Diller, Steve; Shedroff, Nathan; Rhea, Darrell, 2005).
+Observation can surface ways of operating and behaving that people would never otherwise think to articulate, but which represent valuable knowledge of several kinds:
+• Declarative knowledge—knowing what to do
+• Procedural knowledge—knowing how to do it
+• Contextual knowledge—knowing when to do it
+• Experiential knowledge—knowing why it is important
+Having insight into these four types of knowledge for those for whom you are creating something allows you to do so more successfully. It reduces the risk associated with creating new things, as you have a better understanding of the environment into which those new things will be delivered.
+Observation may be done in people’s homes or other places they frequent in their everyday lives. Kimberly-Clark, for example, observed parents and children in their homes as well as day care centers to garner the insights – diapers are thought of as clothing by toddlers, and parents fear that they will handle toilet training badly – that led to the development of Huggies Pull-ups (Beckman & Barry, 2009). The Quick Service Restaurant chain, Chick-fil-a, accompanies its customers on rides through the drive-through or visits to the stores to observe first-hand their experience with ordering and consuming meals. Intel hosts a group of 100+ ethnographers who study topics such as fear in an attempt to better understand what kind of features they will need in their future products.
+Observation also may be done internal to an organization to understand the culture of the organization, and the tacit or latent knowledge contained in the minds, experience and sensibilities of the people who work there. This is particularly critical in B2B settings, where understanding the organizational dynamics of a company into which you are delivering, say, an enterprise software solution is as important as understanding the basic features that software should provide. Knowing, for example, that a banking customer only allows the accounting department to enter data in the bank’s information management system helps the bank better understand why its software isn’t working as it otherwise might.
+2
+    
+  Problem Finding, Problem Solving
+Observation – to gather the types of information we have discussed, and in particular to elicit the stories that help us understand culture and meaning – may be done in a number of different ways. The fundamental ethnographic principles underlying observation include: do the research in the user’s natural setting, see the world through the eyes of the users, empathize with them, and spend extended time with them, to the extent possible participating in their cultural life to fully understand it. In practice, it is difficult to get the depth of understanding that a true ethnographer might get from years of living with a particular group of people. But there are tools or approaches that are frequently used to gather relevant information:
+ Participant observation aims to gain a close and intimate familiarity with a given group of individuals and their practices through intensive involvement with people in their natural environment over an extended period of time. A key principle of the method is that one may not merely observe, but must find a role within the group observed from which to participate in some manner, even if only as “outside observer” (Wikipedia: The Free Encyclopedia, 2010). Mystery shopping, for example, puts the observer in a role as consumer of a good or service. It is often difficult, however, to embed oneself in a setting – imagine, for example, how difficult it would be to become a member of a family for a short period of time – so there are a number of other approaches that are used as well.
+ Non-participant observation may be done directly or indirectly. An individual might simply shadow another person throughout his or her daily activities, or video cameras might be set up to track multiple persons’ behaviors in particular settings, such as in a shopping mall or store.
+ Formal ethnographic interviews often accompany observation to elicit information from users about what they are doing and why they are doing it. Asking a user to describe his or her daily routine, or tell about his or her life history is a common approach to getting the user to share important insights. “Desk tours” might be used to learn about an individual’s workspace, and in the process elicit information about his or her everyday work activities (Wasson, 2000).
+ Intercepts, in which the observer goes to a particular setting, watches for some period of time, and then approaches the user with questions are less formal than the ethnographic interview approach. This form of “hanging out” with users and having less formal conversations with them allows the users to take conversations where they want in a less guided fashion than would a more formal interview protocol (Agar, 1996).
+ Informant diaries require users capture information on a regular basis. This data can then form the basis of a conversation, and can uncover differences between what a user says he or she “usually does” versus what he or she “actually does.” Similarly, an informant might be asked to take photos and use them to document some of his or her activities (Wasson, 2000).
+ Virtual ethnography (Hine, 2000) and “netnography” (Kozinets, 2002) are adapting ethnographic and observational research methods to study Internet behavior as well.
+The outcome of observation work is a rich data set that can then be mined – in the Extract Insights phase – to develop a set of models that represent how individuals or an organization currently works. These models, in turn, provide a foundation for collaborative development of new products, programs, services, markets, organizations, or businesses.
+3
+  Problem Finding, Problem Solving
+Interviewing1
+One of the tools used in observation work that you will practice in this class is interviewing. Some of you may have had practice doing interviews, but ethnographic interviews are likely different from those you may have experienced. These interviews are:
+ Extended and open-ended explorations of a person’s needs, emotions and aspirations
+ A partnership with the participant that requires empathy, listening and openness
+ More than data gathering – you must be ready to hear something new and be changed by it
+ Only semi-structured; you develop a field guide, but use it flexibly to ensure that the interview
+feels like a conversation
+In a successful interview:
+ The respondents should do 80 – 90% of the talking
+ You should encourage them to tell you stories, particularly about successes and failures
+ You should ask simple or naïve questions that often start with what, how, who, why or tell us
+about
+The anatomy of an interview is much like that of a good story with six primary sections: introduction, kickoff, build rapport, grand tour, reflection and wrap-up detailed here:
+Introduction
+Your informant may be confused as to exactly what you want from him or her. So, find good place for the interview ahead of time. If possible, arrange comfortable seating, adequate lighting and a low noise location. Then when the informant arrives, be direct (e.g., by suggesting “Why don’t we sit down here?”) and put them at ease.
+ Clearly describe your purpose (e.g., “We’re going to explore how decisions get made in the Emergency Room.” )
+ Outline the interview, letting them know your plan and how much of their time you will need (e.g., “We’re going to spend the day with you. We’ll be watching how the organization works, and later ask you and your staff some questions.”)
+ Let them know their knowledge is important (e.g., "I've never been a waiter. It looks pretty hard to keep all your customers happy. Can you help me understand how you do it?”)
+Kickoff
+At the end of your introduction, make a clear transition over to the participant. Start with questions that are easy to answer and draw the participant in:
+ “Why don’t you start by telling us a little about yourself?”
+ “What specifically do you do here?”
+ “So maybe the best place to start is to have you introduce yourselves and tell us a bit about the
+band...”
+Clarify with lots of follow-up questions to get the respondent talking and put them at ease.
+Build Rapport
+Informants may be defensive initially, providing only short answers (e.g., “Oh you know...normal stuff. Just like everyone else. No big deal”). Be patient and continue asking descriptive questions to build their confidence and trust. Reassure them that they are doing okay (e.g., when they say “I don’t know...is this the kind of thing you want to know?” tell them “Absolutely, exactly what we need”).
+     1 Thanks to Michael Barry of Pointforward, Inc. for sharing his materials on interviewing.
+4
+  Problem Finding, Problem Solving
+Let the informant tell the stories they want to tell you; often a seemingly irrelevant topic will provide new insight. You can guide the informant’s responses more when you are further into the interview. Offer personal information selectively; the interview is about them, not about you.
+Grand Tour
+Now you get to the meat of your interview, but you can’t rush to get here. Without good rapport with the informant, you won’t get as much from the grand tour. The structure of the grand tour depends on what you want to learn. It could be a walk around a bedroom, workplace, or mobile phone. Here are some sample approaches:
+ Sequence of events (e.g., “Walk me through a typical day...then what do you do next?”)
+ Specificexamples(e.g.,“Let'stakelastnightforexample,whatdidyoumakefordinner?”)
+ Tasks and organizational structures (e.g., “Can you draw me a diagram of your computer
+network?”)
+ Exhaustive list (e.g., “What are all the different exercises you do in ballet class...are there any
+others?”)
+ Quantity (e.g., “How many of your customers fall into that category?”)
+ Participation(e.g.,“CanyoushowmehowIshouldmakeaWhopper?”)
+ Naïve outsider perspective (e.g., “Let’s say that I’ve just arrived here from another country. What
+can you tell me about the typical American breakfast?”)
+ Peercomparison(e.g.,“Doyourcolleaguesshareyourlunchhabits?”)
+ Otherviewpointcomparison(e.g.,“Whatwouldothermomsthinkaboutthat?”)
+ Projection(e.g.,“Whatdoyouthinkwouldhappenif...?”)
+ Characterization and comparison (e.g., “Could you characterize your lunch and compare it your
+husband’s?”).
+ Suggestiveopinion(e.g.,“Somepeoplehavereallynegativefeelingsaboutcellphoneuseinclass
+while others don't at all. What are your feelings about?”)
+ Metaphors(e.g.,Ifyourcompanywereananimal,whattypeofanimalwoulditbe?” Or,youcan
+show the respondent a set of photographs that vary along different dimensions and ask that they identify the one that best matches their organization, your product, your competitors, etc.)
+There is incredible detail in the Grand Tour, including things you would never think to ask (e.g., “Tell me about the picture in your battery door”.) As you are conducting the interview, look for conversational “markers”: contradictions, paradoxes, non-sequiturs, and unexpected reactions. Point to their reaction (e.g., “Why do you roll your eyes when you say that?”). Follow up to better understand them using clarificationquestions(e.g.,“...andwhenyousayeasytouse,youmeanwhat?”). Usenativelanguageas much as possible (e.g., “Why do you call it the ‘Batcave?’”). And, to ensure you are capturing what they are saying reflect back to them (e.g., “So, what I hear you saying is..... Is that right?”).
+Reflection
+After you have spent a good deal of time with the informant, he or she may be more able to offer up personal insights or more fully describe plans, dreams, passions, etc. It is alright in the reflection phase to offer theories about the informants for their evaluation or to ask the informant to generate their own theories. These might look like:
+ Changes over time (e.g., “How are things different than they were a year ago?”)
+ Projection (e.g., “Do the other cashiers feel that way, or differently?”)
+ The why question, to be used with great care (e.g.,”Why didn’t you look both ways before
+  crossing?”)
+5
+  Problem Finding, Problem Solving
+Wrap-up
+Finally, at the end of the allotted time thank your informants and tell them how helpful they have been. Ask them for any final thoughts, or if they have any questions for you. Often as you are ending the interview, interviewees will come up with important comments, thoughts, and insights, so keep listening.
+Here’s a summary of useful do’s and don’ts for interviewing:
+      Do Say
+      Don’t Say
+       • I am interested in understanding...
+• What do you do about ...?
+• What do you think about this idea...?
+• Tell me more about...?
+• Give me an example of...?
+• Who/what/anything else?
+  • I don’t agree with you...
+• You are kidding me: you do not recycle
+anything?
+• Don’t you think it is a great idea to have ...
+• It is not possible that you...
+• That is not a good example...
+• That’s all?
+   In the end, a rich interview is less about structure than good interviewing techniques. Don’t be afraid of silence; let the informant do most of the talking; and exhibit humility, respect, empathy, active listening and curiosity throughout.
+Capturing the Interview
+If at all possible, you should video record the interview. This is the best form in which to bring the material back to your team in as close to original form as possible. If you cannot videotape the interview, then an audio recording complemented by photos or at the very least a comprehensive set of notes will do. You will want to have two people present to conduct an interview – one to do the data capture, and the other to maintain a conversational mien with the informant.
+Sometimes you will want to capture the essence of an interview to communicate it to the rest of your team. One tool for doing so is one-sheet stories, an example of which is on the next page. Start with a catchy headline, include a picture or drawing, and boil the story down to one paragraph. Close with a one sentence “how might we...?” statement.
+Summary
+In summary, the Observe step of the Problem Finding, Problem Solving process requires that you collect information firsthand through:
+• Asking open-ended questions
+• Seeing (watching) people and processes
+• Engaging participants in co-creation activities to uncover new patterns of behavior
+Doing so requires that you develop your diverging capabilities including:
+• Be more sensitive to people’s feelings
+• Be more sensitive to values
+• Listen with an open mind
+Collectively, these capabilities will allow you to better perform the activities associated with inductive reasoning:
+6
+  
+  Problem Finding, Problem Solving
+• Sensing: take in data without preconceptions
+• Perceiving: focus on particular sensations and categorize them according to your memory system
+• Thinking: draw conclusions about the patterns you see and the meaning they provide
+  All Work and No Play
+Everyone appears to be having more fun, and more flexibility with their time schedules than we are! The top phrases I hear from others are; “Every time I see your teammates, your heads are down and always focused on your work”. “You travel a lot!” It’s difficult to work in an environment when you feel different from everyone else... We’re working later than IT, and we don’t have the option or flexibility to work from home like other people on the floor/group get to do. What happened to cultivating openness and flexibility? How can we be a part of that culture?
+How might we find a way to let this hard working group feel they are part of an acknowledged community.
+ References
+Agar, M. H. (1996). The Professional Stranger. London: Academic Press.
+Beckman, S. L., & Barry, M. (2009). Design and Innovation through Storytelling. Journal of
+Innovation Science , 1 (4), 151-160.
+Beckman, S. L., & Barry, M. (2007). Innovation as a Learning Process: Embedding Design Thinking. California Management Review , 50 (1), 25-56.
+7
+ 
+  Problem Finding, Problem Solving
+Diller, Steve; Shedroff, Nathan; Rhea, Darrell. (2005). Making Meaning: How Successful Businesses Deliver Meaningful Customer Experiences (Voices That Matter). Berkeley, CA: New Riders Press.
+Hine, C. M. (2000). Virtual Ethnography. Thousand Oaks, CA: Sage.
+Kozinets, R. (2002). The Field Behind the Screen: Using Netnography for Marketing Research in
+Online Communities. Journal of Marketing Research , 39 (1), 61-72.
+Mayfield, M. (2007). Thinking for Yourself: Developing Critical THinking Skills through Reading
+and Writing. Boston: Thomson Higher Education.
+Wasson, C. (2000). Ethnography in the Field of Design. Human Organization , 59 (4), 377-388.
+Wikipedia: The Free Encyclopedia. (2010, June 15). Retrieved September 3, 2010, from Participant Observation: http://en.wikipedia.org/wiki/Participant_observation
+8
